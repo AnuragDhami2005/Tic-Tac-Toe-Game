@@ -1,11 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-#include<ctype.h>
+/*
+  Note:
+  In this Tic Tac Toe game, only one of PLAYER2 and COMPUTER will play against PLAYER1 at a given time.
+  Both PLAYER2 and COMPUTER are represented by the character 'O' in this implementation.
+  PLAYER2 is used when playing against another human player.
+  COMPUTER is used when playing against the computer .
+  */
 #define COMPUTER 'O'
 #define PLAYER2 'O'
 
-int finalMove=1;
 int freespaces=9;
 const char PLAYER1 ='X';
 char arr[3][3];
